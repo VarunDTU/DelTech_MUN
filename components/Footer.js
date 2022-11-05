@@ -65,16 +65,15 @@ const Footer = () => {
               </li>
             </nav>
           </div>
-          
+
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-           
             <iframe
-            className="border-spacing-0"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3425.9157176142376!2d77.11396523433706!3d28.746144483964486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d012681da5cb3%3A0x52552bdb4fa8ac89!2sDTU%20Entrance%20Gate%2C%20Delhi%20Technological%20University%2C%20Shahbad%20Daulatpur%20Village%2C%20Rohini%2C%20Delhi%2C%20110042!5e0!3m2!1sen!2sin!4v1667633231276!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3497.997443658038!2d77.11617251502547!3d28.74949328237174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0138a74f7da7%3A0xf09fad683c23bd5d!2sDelhi%20Technological%20University!5e0!3m2!1sen!2sin!4v1667634727926!5m2!1sen!2sin"
               width="350"
               height="200"
               allowfullscreen=""
               loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
         </div>
