@@ -12,52 +12,23 @@ const Main = () => {
     slidesToScroll: 1
   };
   return (
-    <section class='text-gray-600 -z-50' id="home" >
+    <section class='text-gray-600 -z-50 w-screen' id="home" >
       <div class="mx-0 content-center">
       <Slider  {...settings}>
-      <div class="w-full h-fit">
-          <div class='bg-[url("/party1.jpg")] object-cover h-screen w-full bg-cover bg-center p-12'>
-          <div class="container px-5 py-24 mx-auto">
-        <div class="flex flex-col text-center w-full mb-20">
-          
-          <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
-            DELTECH MUN
-          </h1>
-          <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-            gentrify, subway tile poke farm-to-table. Franzen you probably
-            haven't heard of them man bun deep jianbing selfies heirloom prism
-            food truck ugh squid celiac humblebrag.
-          </p>
+      <div class="relative w-full h-screen">
+        <div
+            class="w-full h-full bg-[url('/party1.jpg')] bg-cover bg-center blur-sm">
         </div>
-        <button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+        <div
+            class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col justify-center items-center">
+            <h1 class="mt-5 text-center text-7xl text-white font-semibold drop-shadow-lg">
+            DDelTech MUN Is Here With It's 12th Edition.
+            </h1>
+            <button class="flex mx-auto mt-16 text-white border-0 py-2 px-8 focus:outline-none bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 rounded text-lg">
           Register Now
         </button>
-      </div>
-          </div>
-      </div>
-      <div class="w-full h-fit">
-          <div class='bg-[url("/party1.jpg")] object-cover h-screen w-full bg-cover bg-center p-12'>
-          <div class="container px-5 py-24 mx-auto">
-        <div class="flex flex-col text-center w-full mb-20">
-          
-          <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
-            DELTECH MUN
-          </h1>
-          <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-            gentrify, subway tile poke farm-to-table. Franzen you probably
-            haven't heard of them man bun deep jianbing selfies heirloom prism
-            food truck ugh squid celiac humblebrag.
-          </p>
         </div>
-        <button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-          Register Now
-        </button>
-      </div>
-          </div>
-      </div>
-      
+    </div>
     </Slider>
     </div>
     </section>
