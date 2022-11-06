@@ -17,7 +17,7 @@ export default function Home() {
 
       <Navbar/>
       <Main/>
-      <Comingsoon />
+      <Committees/>
       <Footer />
     </div>
   )
