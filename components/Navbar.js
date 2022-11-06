@@ -7,7 +7,7 @@ const Navbar = () => {
       <div class="flex justify-between items-center h-20 px-4">
         
         <a class="flex title-font font-medium items-center mb-4">
-          <img class="h-8 pr-1 mx-auto" src="/deltech-logo.png"></img>
+          <Image class="h-8 pr-1 mx-auto" src="/deltech-logo.png"></Image>
           <span class="ml-3 text-xl">DelTech MUN</span>
         </a>
         <nav class=" mx-1 md:block hidden">

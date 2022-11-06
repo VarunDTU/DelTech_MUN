@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image'
 const Contact = () => {
   return (
     <section class="text-gray-600 body-font relative" id='contacts'>
