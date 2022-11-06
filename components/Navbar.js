@@ -3,10 +3,10 @@ import {Link} from 'react-scroll';
 
 const Navbar = () => {
   return (
-    <header class="text-white body-font z-10 top-0 fixed w-full mx-1 backdrop-blur-sm bg-red-300/20">
+    <header class="text-white body-font z-10 top-0 absolute w-full backdrop-blur-sm bg-red-300/20">
       <div class="flex justify-between items-center h-20 px-4">
         
-        <a class="flex title-font font-medium items-center mb-4 md:mb-0">
+        <a class="flex title-font font-medium items-center mb-4">
           <img class="h-8 pr-1 mx-auto" src="/deltech-logo.png"></img>
           <span class="ml-3 text-xl">DelTech MUN</span>
         </a>
@@ -14,7 +14,7 @@ const Navbar = () => {
           <Link activeClass="active" class=" mr-5 hover:text-red-600"  to="home"  smooth={true} duration={500}>
           HOME
           </Link>
-          <Link activeClass="active" class="mr-5 hover:text-red-600"  to="aboutus"  smooth={true}  duration={500}>
+          <Link activeClass="active" class="mr-5 hover:text-red-600"  to="temp"  smooth={true}  duration={500}>
           ABOUT
           </Link>
           
