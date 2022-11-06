@@ -4,15 +4,15 @@ import { FaLink } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="text-gray-600 body-font" id='contacts'>
-      <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+    <footer className="text-gray-600 body-font bg-black" id='contacts'>
+      <div className="px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
         <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
           <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
           <img class="h-8 pr-1 " src="/deltech-logo.png"></img>
             <span className="ml-3 text-xl">DelTech MUN</span>
           </a>
           <p className="mt-2 text-sm text-gray-500">
-            Air plant banjo lyft occupy retro adaptogen indego
+          The DELTECH MODEL UNITED NATIONS DelTech MUN, the flagship annual debating event of DTU, started in 2012. As a conference, DelTech has always ensured to uphold its institution’s repute through the finest quality of debate. We host a multitude of talented individuals from all over India and provide them with a fitting platform to experience the working of the United Nations. With the aim of keeping up with the expectations set up by the previous eight editions, the DelTech Model United Nations 2022 is going to encompass 8 committees simulating various governing councils.
           </p>
         </div>
         <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
@@ -22,43 +22,23 @@ const Footer = () => {
             </h2>
             <nav className="list-none mb-10">
               <li>
-                <a className="text-gray-600 hover:text-gray-800">First Link</a>
+                <a className="text-gray-600 hover:text-gray-800" href="#home">Home</a>
               </li>
               <li>
-                <a className="text-gray-600 hover:text-gray-800">Second Link</a>
+                <a className="text-gray-600 hover:text-gray-800" href="#temp">About</a>
               </li>
               <li>
-                <a className="text-gray-600 hover:text-gray-800">Third Link</a>
+                <a className="text-gray-600 hover:text-gray-800" href="#contacts">Contacts</a>
               </li>
-              <li>
-                <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
-              </li>
+              
             </nav>
           </div>
-          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
-              CATEGORIES
-            </h2>
-            <nav className="list-none mb-10">
-              <li>
-                <a className="text-gray-600 hover:text-gray-800">First Link</a>
-              </li>
-              <li>
-                <a className="text-gray-600 hover:text-gray-800">Second Link</a>
-              </li>
-              <li>
-                <a className="text-gray-600 hover:text-gray-800">Third Link</a>
-              </li>
-              <li>
-                <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
-              </li>
-            </nav>
-          </div>
+       
 
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3497.997443658038!2d77.11617251502547!3d28.74949328237174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0138a74f7da7%3A0xf09fad683c23bd5d!2sDelhi%20Technological%20University!5e0!3m2!1sen!2sin!4v1667634727926!5m2!1sen!2sin"
-              width="350"
+              width="300"
               height="200"
               allowfullscreen=""
               loading="lazy"
@@ -67,17 +47,17 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="bg-gray-100">
+      <div className="bg-black">
         <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
           <p className="text-gray-500 text-sm text-center sm:text-left">
             © 2022 DelTech MUN —
             <a
-              href="https://twitter.com/knyttneve"
+              href="#"
               rel="noopener noreferrer"
               className="text-gray-600 ml-1"
               target="_blank"
             >
-              @knyttneve
+             
             </a>
           </p>
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">

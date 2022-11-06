@@ -5,7 +5,7 @@ import Main from "../components/Main";
 import Committees from "../components/Committees";
 import Footer from "../components/Footer";
 import Contact from '../components/Contact';
-
+import Comingsoon from '../components/comingsoon'
 export default function Home() {
   return (
     <div>
@@ -15,10 +15,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Navbar />
-      <Main />
-      
-      <Committees />
+      <Navbar/>
+      <Main/>
+      <Committees/>
       <Footer />
     </div>
   )
