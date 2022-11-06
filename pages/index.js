@@ -4,7 +4,6 @@ import Navbar from "../components/Navbar";
 import Main from "../components/Main";
 import Committees from "../components/Committees";
 import Footer from "../components/Footer";
-import Contact from '../components/Contact';
 import Comingsoon from '../components/comingsoon'
 export default function Home() {
   return (
@@ -17,7 +16,8 @@ export default function Home() {
 
       <Navbar/>
       <Main/>
-      <Committees/>
+      <Comingsoon></Comingsoon>
+      {/* <Committees/> */}
       <Footer />
     </div>
   )
